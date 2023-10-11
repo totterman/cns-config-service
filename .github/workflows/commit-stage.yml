@@ -49,7 +49,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: temurin
-          java-verson: 17
+          java-version: 17
           cache: gradle
       - name: Build container image
         run: |
