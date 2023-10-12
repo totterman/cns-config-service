@@ -23,6 +23,7 @@ jobs:
         with:
           entrypoint: '/kubeconform'
           args: "-summary -output json k8s/"
+          fail-build: true
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
