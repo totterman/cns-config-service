@@ -6,6 +6,7 @@ server:
     threads:
       max: 50
       min-spare: 5
+
 spring:
   application:
     name: config-service
