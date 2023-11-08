@@ -22,7 +22,7 @@ class ConfigServiceApplicationTests {
 	}
 
 	@Test
-	// @Disabled("You can disable this test if your config-repo is not publicly available")
+	//@Disabled("You can disable this test if your config-repo is not publicly available")
 	void defaultConfigurationAvailable() {
 		ResponseEntity<Environment> entity = restTemplate
 				.getForEntity("/application/default", Environment.class);
